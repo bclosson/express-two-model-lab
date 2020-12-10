@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+</head>
+<body>
+
+        <header>
+
+            <h1>Teams</h1>
+
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/teams/new">Create New Team</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+            <h2>List of Teams</h2>
+            <ul>
+                <% for(let i = 0; i < team.length; i++) { %>
+                    <li>
+                    <a href="/teams/<%= teams[i]._id %>"><%= team[i].name %></a>
+                    </li>
+                <% }; %>
+            </ul>
+        </main>
+</body>
+</html>

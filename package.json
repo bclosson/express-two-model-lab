@@ -1,7 +1,6 @@
 {
   "name": "two-model-lab",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,11 @@
     "mongoose": "^5.10.8",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/benjaminclosson1/two-model-lab.git"
+  },
+  "description": ""
 }

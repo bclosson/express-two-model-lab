@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Team</title>
+</head>
+<body>
+        <header>
+
+            <h1>Create New Team</h1>
+            <nav>
+
+                <ul>
+
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/teams">Teams Index</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <form action="/teams" method="POST">
+                <label for="name">Name</label>
+                <input type="text" name="name"/>
+            </form>
+
+            <form action="/teams" method="POST">
+                <label for="homeTown">Home Town</label>
+                <input type="text" name="homeTown"/>
+            </form>
+
+            <form action="/teams" method="POST">
+                <label for="conference">Conference</label>
+                <input type="text" name="conference"/>
+            </form>
+
+            <form action="/teams" method="POST">
+                <label for="division">Division</label>
+                <input type="text" name="division"/>
+            </form>
+            <button type="submit">Add Team</button>
+            
+        </main>
+
+</body>
+</html>
